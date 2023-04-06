@@ -47,3 +47,5 @@ pyautogui.write(preco)
 #  4 - clicar em registrar 
 pyautogui.click(495,790,duration=2)
 sleep(1)
+
+#Descobrir porque esta cadastrando apenas o ultimo produto.

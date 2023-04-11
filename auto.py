@@ -32,7 +32,7 @@ with open('produtos.txt', 'r', encoding='utf-8') as arquivo:
         quantidade = linha.split(',')[1]
         preco = linha.split(',')[2]
 
-        #  1 - clicar e digitar produto
+         #  1 - clicar e digitar produto
         pyautogui.click(668, 538, duration=2)
         pyautogui.write(produto)
 
